@@ -2,7 +2,7 @@
 
 int main()
 {
-  int num_of_tests, i, j, sis1 = 0, sis2 = 0;
+  int num_of_tests, i;
   int tests;
 
   scanf("%d", &num_of_tests);
