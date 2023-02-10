@@ -17,7 +17,7 @@ int main()
   }
 
 	while(IsPErfectYear(year, pos) == 1)
-  	year++;
+    year++;
 
 	printf("%i", year);
 	
@@ -33,10 +33,10 @@ int IsPErfectYear (int year, int pos)
   
   for(i = 0; i < 4; i++)
   {
-  	while(yearMemo[j] == arrayYear[i] && i < 4 && j < 4)
-  	{
-  		yearMemo[j] = arrayYear[i];
-  		j++;
+    while(yearMemo[j] == arrayYear[i] && i < 4 && j < 4)
+    {
+      yearMemo[j] = arrayYear[i];
+      j++;
 		}
 	}
 	
